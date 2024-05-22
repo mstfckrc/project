@@ -1,0 +1,89 @@
+.form-quiz {
+  margin: 40px auto;
+  padding: 60px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
+  border: 1px solid black;
+  width: 50%;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+
+  @media (max-width: 900px) {
+    width: 70%;
+  }
+}
+
+.submit-quiz {
+  padding: 10px;
+  width: inherit;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: steelblue;
+  color: white;
+  margin: auto;
+}
+
+.submit-quiz:hover {
+  box-shadow: 3px 5px 5px rgba(73, 191, 238, 0.5);
+  transition: 300ms;
+}
+
+.submit-quiz:disabled {
+  /* background-color: grey; */
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.correct {
+  color: green;
+}
+
+.image-area {
+  width: 30%;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  @media (max-width:900px) {
+    width: 100%;
+  }
+}
+
+.submit-input{
+  width: 70%;
+  margin: auto;
+  padding: 12px;
+  outline: 1px dashed;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: none;
+}
+
+.submit-input:hover{
+  background-color: antiquewhite;
+  transition: 300ms;
+}
+
+.submit-input:focus{
+  background-color: antiquewhite ;
+}
+
+.wrong-quiz{
+  display: none;
+  color: crimson;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.quiz-word{
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+}
