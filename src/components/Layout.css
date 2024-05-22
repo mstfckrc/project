@@ -1,0 +1,28 @@
+.div-outlet {
+  overflow: auto;
+  width: 80%;
+  height: auto;
+  background-color: white;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px dashed black;
+  border-radius: 20px;
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  @media (max-width: 900px) {
+    width: 100%;
+  }
+}
+
+footer{
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+footer p{
+  margin: auto;
+  bottom: 0;
+  color: dimgray;
+}

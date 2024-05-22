@@ -1,0 +1,26 @@
+.div-error {
+  background-color: white;
+  width: 60%;
+  margin: 30px auto;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+}
+
+.message-error {
+  color: red;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.btn-login {
+  color: darkgreen;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.btn-login:hover {
+  color: darkblue;
+  transition: 300ms;
+}
