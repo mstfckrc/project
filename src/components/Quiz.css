@@ -1,0 +1,16 @@
+.quiz-header {
+  background-color: white;
+  width: 70%;
+  margin: 20px auto;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 900px) {
+    width: 90%;
+  }
+}
+
+.change-area{
+    margin: auto;
+}

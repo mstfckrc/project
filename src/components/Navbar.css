@@ -1,0 +1,67 @@
+.navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-div {
+  padding-top: 10px;
+  width: 100%;
+  background-color: white;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-link {
+  text-decoration: none;
+  color: black;
+  padding: 15px 30px;
+  border: none;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline-flex;
+  margin: 5px;
+}
+
+.btn-link:hover {
+  transition: 300ms;
+  box-shadow: 1px 4px 5px cadetblue;
+}
+
+.active {
+  text-decoration: none;
+  color: black;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline-flex;
+  margin: 5px;
+  box-shadow: 1px 4px 5px black;
+}
+
+.logout-btn {
+  background-color: antiquewhite;
+}
+
+.logout-btn:hover {
+  transition: 300ms;
+  box-shadow: 1px 4px 5px darkred;
+}
+
+.username-area {
+  display: flex;
+  flex-direction: row;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
+}
+
+.header {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
